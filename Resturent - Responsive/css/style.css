@@ -1,0 +1,114 @@
+/* @supports (display: grid) {
+    @media screen and (max-width: 400px) {
+        column-gap : 0.5rem;
+    }
+} */
+@media (max-width:600px){
+    .caption-left{
+        visibility: hidden;
+    }
+    .carousel-caption{
+        width:100%;
+        background-color:transparent !important;
+    }
+}
+@media (max-width:920px){
+    .caption-left{
+        visibility: hidden;
+    }
+    .carousel-caption{
+        width:100%;
+        background-color:transparent !important;
+    }
+}
+@media (max-width:1200px){
+    .caption-left{
+        visibility: hidden;
+    }
+    .carousel-caption{
+        width:100%;
+        background-color:transparent !important;
+    }
+}
+body{
+    font-size:17px;
+    padding:0px;
+    margin:0px;
+    /* height:5000px;*/
+}
+.navbar{
+    padding:20px;
+}
+.rem-oneAndAHalf{
+    font-size:1.5rem;
+}
+.rem-2{
+    font-size:2rem;
+}
+.red{
+    color:#cb3233;
+    /* box-shadow:3px 3px 5px #292929;*/
+}
+.bg-red{
+    background-color:#cb3233;
+}
+.whiteOnHoverToRed:hover{
+    color:#cb3233 !important;
+    text-decoration: none;
+}
+.redOnHoverToDark{
+    background-color:#cb3233;
+    color:white;
+    border:1px solid #cb3233;
+    border-radius: 5px;
+}
+.redOnHoverToDark:hover{
+    background-color:#292929;
+    border:1px solid #292929;
+    color:white;
+    box-shadow:.6px .6px 1px #292929 ;
+}
+.decorationNone{
+    text-decoration: none;
+}
+.s-a{
+    justify-content: space-around !important;
+}
+/***************************************************/
+.bg-dark{
+            background:transparent !important;
+            transition:0.75s ease;
+}
+.bg-dark.scrolled{
+            background:#000 !important;
+            box-shadow:2px 2px 3px black;
+}
+/***************************************************/
+.carousel-caption{
+    background-color:rgba(0,0,0,.5);
+    height:100%;
+    width:100%;
+    margin-left:-200px;
+    margin-bottom: -20px;
+    padding: 0px;
+}
+.caption-left{
+    padding-left:150px;
+    /* margin-bottom:100px;
+    /* position: relative;
+    top:30%;
+    /* right :20%; */
+}
+.text-left{
+    text-align: start;
+}
+.circle{
+    height:50px !important;
+    width:50px !important;
+    background-color:#cb3233 !important;
+    border-radius: 50% !important;
+}
+figure , figcaption{
+    background-color:#cb3233 !important;
+}
+/**************************************************************************/
